@@ -7,7 +7,6 @@ local Main = Window:NewTab("Personal Scripts")
 local MainSection = Main:NewSection("Personal Use Scripts")
 
     MainSection:NewButton("Custom Roblox Editor", "Customize Roblox Settings", function()
-		loadstring(game:HttpGet("loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()
-",true))()    end)
+		loadstring(game:HttpGet("loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()",true))()    end)
 
 
