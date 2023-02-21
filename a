@@ -8,3 +8,4 @@ local Window = Library.CreateLib(" | ZaZa Hub V10 |                             
 
     MainSection:NewButton("Custom Roblox Editor", "Customize Roblox Settings", function()
         loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()
+    end)
