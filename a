@@ -9,3 +9,14 @@ local MainSection = Main:NewSection("Personal Use Scripts")
 MainSection:NewButton("Custom Roblox Editor", "Customize Roblox Settings", function()
     loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()
 end)
+
+
+                -- MAIN
+local Main = Window:NewTab("Fling Scripts")
+local MainSection = Main:NewSection("Custom Fling Scripts")
+
+MainSection:NewButton("Fling Player Script", "Flings A Certain Player", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fgasfga/Fe-Fling-GUI-For-roblox/main/Main.lua",true))()
+end)
+
+
