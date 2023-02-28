@@ -6,7 +6,7 @@ local Window = Library.CreateLib(" | ZaZa Hub V11 |                             
 local Main = Window:NewTab("Personal Scripts")
 local MainSection = Main:NewSection("Personal Use Scripts")
 
-MainSection:NewButton("Custom Roblox Editor", "Customize Roblox Settings", function()
+MainSection:NewButton("Custom Roblox Editor", "BROKEN?", function()
     loadstring(game:HttpGet("https://eternityhub.xyz/HostStuff/JayzRoblox.lua"))()
 end)
 
