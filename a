@@ -22,9 +22,9 @@ end)
 
                 -- MAIN
 local Main = Window:NewTab("Craft-Blox")
-local MainSection = Main:NewSection("Script for those shitty minecraft ripoffs")
+local MainSection = Main:NewSection("Script For Those Shitty Minecraft Ripoffs")
 
-MainSection:NewButton("Craft-Blox GUI", "works in all craft-blox games😀👍", function()
+MainSection:NewButton("Craft-Blox GUI", "Works In All Craft-Blox Games😀👍", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0craftblox", true))()
 end)
 
