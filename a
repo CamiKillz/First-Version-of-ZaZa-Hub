@@ -20,3 +20,12 @@ MainSection:NewButton("Fling Player Script", "Flings A Certain Player", function
 end)
 
 
+                -- MAIN
+local Main = Window:NewTab("Craft-Blox")
+local MainSection = Main:NewSection("Script for those shitty minecraft ripoffs")
+
+MainSection:NewButton("Craft-Blox GUI", "works in all craft-blox games😀👍", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0craftblox", true))()
+end)
+
+
