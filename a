@@ -29,3 +29,14 @@ MainSection:NewButton("Craft-Blox GUI", "Works In All Craft-Blox Games😀👍",
 end)
 
 
+                -- MAIN
+local Main = Window:NewTab("Auto Rap Battles")
+local MainSection = Main:NewSection("Auto Rap Battles")
+
+MainSection:NewButton("Auto Rap Battles GUI", "Auto Rap Battles Script😀👍", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/CamiKillz/auto-rap-battles-loadstring/main/auto%20rap%20battles%20loadstring"))() 
+end)
+
+
+
+
